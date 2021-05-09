@@ -57,13 +57,18 @@
                                     <h4 class="d-flex justify-content-between align-items-center mb-3">
                                         <span class="text-info">Order Summary:</span>
                                     </h4>
-                                    <ul class="list-group mb-3">
-                                        @foreach (var obj in Model.ProductList)
+                                    <ul>
+                                        @for (int i = 0; i < Model.ProductList.Count(); i++)
                                         {
+                                            //foreach loop hidden kullaniminda kulanilamaz o yuzden for dongusu kullanildi.
+                                            <input type="hidden" asp-for="@Model.ProductList[i].Id" />
+                                            <input type="hidden" asp-for="@Model.ProductList[i].Name" />
+
                                             <li class="list-group-item d-flex justify-content-between">
                                                 <div>
-                                                    <h6 class="my-0">Product Name</h6>
-                                                    <small class="text-muted">Price per Sqft: $@obj.Price</small>
+
+                                                    <h6 class="my-0">@Model.ProductList[i].Name</h6>
+                                                    <small class="text-muted">Price per Sqft: $@Model.ProductList[i].Price</small>
                                                 </div>
                                             </li>
                                         }

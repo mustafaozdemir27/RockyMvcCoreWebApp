@@ -14,7 +14,7 @@ namespace RockyMvcCoreWebApp.Models.ViewModel
 
         }
         public ApplicationUser ApplicationUser { get; set; }
-        public IEnumerable<Product> ProductList { get; set; }
+        public List<Product> ProductList { get; set; }
 
     }
 }
