@@ -30,9 +30,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\RockyMvcCoreWebApp_Utility.csproj" />
     <ProjectReference Include="..\RockyMvcCoreWebApp_DataAccess\RockyMvcCoreWebApp_DataAccess.csproj" />
     <ProjectReference Include="..\RockyMvcCoreWebApp_Models\RockyMvcCoreWebApp_Models.csproj" />
+    <ProjectReference Include="..\RockyMvcCoreWebApp_Utility\RockyMvcCoreWebApp_Utility.csproj" />
   </ItemGroup>
 
 </Project>

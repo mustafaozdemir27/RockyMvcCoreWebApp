@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockyMvcCoreWebApp", "RockyMvcCoreWebApp\RockyMvcCoreWebApp.csproj", "{F3919BB6-6FB0-4905-A363-7EB2DEE51088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp_Utility", "ClassLibrary1\RockyMvcCoreWebApp_Utility.csproj", "{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockyMvcCoreWebApp_Models", "RockyMvcCoreWebApp_Models\RockyMvcCoreWebApp_Models.csproj", "{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp_Models", "RockyMvcCoreWebApp_Models\RockyMvcCoreWebApp_Models.csproj", "{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockyMvcCoreWebApp_DataAccess", "RockyMvcCoreWebApp_DataAccess\RockyMvcCoreWebApp_DataAccess.csproj", "{6FAD5129-7B3B-4662-A5D7-AF0676368046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp_DataAccess", "RockyMvcCoreWebApp_DataAccess\RockyMvcCoreWebApp_DataAccess.csproj", "{6FAD5129-7B3B-4662-A5D7-AF0676368046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockyMvcCoreWebApp_Utility", "RockyMvcCoreWebApp_Utility\RockyMvcCoreWebApp_Utility.csproj", "{C21B8180-BBBB-49B5-8FC3-96FC9387E16D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{F3919BB6-6FB0-4905-A363-7EB2DEE51088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3919BB6-6FB0-4905-A363-7EB2DEE51088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3919BB6-6FB0-4905-A363-7EB2DEE51088}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{6FAD5129-7B3B-4662-A5D7-AF0676368046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FAD5129-7B3B-4662-A5D7-AF0676368046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FAD5129-7B3B-4662-A5D7-AF0676368046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21B8180-BBBB-49B5-8FC3-96FC9387E16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21B8180-BBBB-49B5-8FC3-96FC9387E16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21B8180-BBBB-49B5-8FC3-96FC9387E16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21B8180-BBBB-49B5-8FC3-96FC9387E16D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
