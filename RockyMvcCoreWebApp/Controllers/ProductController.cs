@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RockyMvcCoreWebApp;
-using RockyMvcCoreWebApp.Data;
+using RockyMvcCoreWebApp_DataAccess.Data;
 using RockyMvcCoreWebApp_Models;
 using RockyMvcCoreWebApp_Models.ViewModel;
 using RockyMvcCoreWebApp_Utility;

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp_Utility"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp_Models", "RockyMvcCoreWebApp_Models\RockyMvcCoreWebApp_Models.csproj", "{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp_DataAccess", "RockyMvcCoreWebApp_DataAccess\RockyMvcCoreWebApp_DataAccess.csproj", "{6FAD5129-7B3B-4662-A5D7-AF0676368046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FAD5129-7B3B-4662-A5D7-AF0676368046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAD5129-7B3B-4662-A5D7-AF0676368046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FAD5129-7B3B-4662-A5D7-AF0676368046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FAD5129-7B3B-4662-A5D7-AF0676368046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

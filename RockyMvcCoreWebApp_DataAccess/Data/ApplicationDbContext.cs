@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RockyMvcCoreWebApp.Data
+namespace RockyMvcCoreWebApp_DataAccess.Data
 {
     public class ApplicationDbContext:IdentityDbContext
     {

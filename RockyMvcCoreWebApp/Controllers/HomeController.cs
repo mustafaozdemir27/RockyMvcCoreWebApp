@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using RockyMvcCoreWebApp;
-using RockyMvcCoreWebApp.Data;
+using RockyMvcCoreWebApp_DataAccess.Data;
 using RockyMvcCoreWebApp_Models;
 using RockyMvcCoreWebApp_Models.ViewModel;
 using RockyMvcCoreWebApp_Utility;

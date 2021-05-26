@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace RockyMvcCoreWebApp.Migrations
+namespace RockyMvcCoreWebApp_DataAccess.Migrations
 {
     public partial class AddAllChangesToDb : Migration
     {

@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using RockyMvcCoreWebApp.Data;
 
 [assembly: HostingStartup(typeof(RockyMvcCoreWebApp.Areas.Identity.IdentityHostingStartup))]
 namespace RockyMvcCoreWebApp.Areas.Identity

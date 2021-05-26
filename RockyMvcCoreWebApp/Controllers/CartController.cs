@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
-using RockyMvcCoreWebApp.Data;
+using RockyMvcCoreWebApp_DataAccess.Data;
 using RockyMvcCoreWebApp_Models;
 using RockyMvcCoreWebApp_Models.ViewModel;
 using RockyMvcCoreWebApp_Utility;
