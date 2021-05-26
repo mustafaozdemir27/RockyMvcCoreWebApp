@@ -1,6 +1,6 @@
 using System;
 
-namespace RockyMvcCoreWebApp.Models
+namespace RockyMvcCoreWebApp_Models
 {
     public class ErrorViewModel
     {

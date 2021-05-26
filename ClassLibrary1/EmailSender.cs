@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RockyMvcCoreWebApp.Utility
+namespace RockyMvcCoreWebApp_Utility
 {
     public class EmailSender : IEmailSender
     {

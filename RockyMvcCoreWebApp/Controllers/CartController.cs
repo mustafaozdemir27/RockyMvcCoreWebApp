@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using RockyMvcCoreWebApp.Data;
-using RockyMvcCoreWebApp.Models;
-using RockyMvcCoreWebApp.Models.ViewModel;
-using RockyMvcCoreWebApp.Utility;
+using RockyMvcCoreWebApp_Models;
+using RockyMvcCoreWebApp_Models.ViewModel;
+using RockyMvcCoreWebApp_Utility;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,7 +13,6 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace RockyMvcCoreWebApp.Controllers
 {
     [Authorize]

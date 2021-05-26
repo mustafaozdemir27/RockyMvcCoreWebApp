@@ -168,12 +168,10 @@ namespace RockyMvcCoreWebApp.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -210,12 +208,10 @@ namespace RockyMvcCoreWebApp.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -225,7 +221,7 @@ namespace RockyMvcCoreWebApp.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.ApplicationType", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.ApplicationType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -241,7 +237,7 @@ namespace RockyMvcCoreWebApp.Migrations
                     b.ToTable("ApplicationType");
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.Category", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -260,7 +256,7 @@ namespace RockyMvcCoreWebApp.Migrations
                     b.ToTable("Category");
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.Product", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -298,7 +294,7 @@ namespace RockyMvcCoreWebApp.Migrations
                     b.ToTable("Product");
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.ApplicationUser", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
@@ -359,15 +355,15 @@ namespace RockyMvcCoreWebApp.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.Product", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.Product", b =>
                 {
-                    b.HasOne("RockyMvcCoreWebApp.Models.ApplicationType", "ApplicationType")
+                    b.HasOne("RockyMvcCoreWebApp_Models.ApplicationType", "ApplicationType")
                         .WithMany()
                         .HasForeignKey("ApplicationTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("RockyMvcCoreWebApp.Models.Category", "Category")
+                    b.HasOne("RockyMvcCoreWebApp_Models.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)

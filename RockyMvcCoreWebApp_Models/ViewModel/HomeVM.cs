@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RockyMvcCoreWebApp.Models.ViewModel
+namespace RockyMvcCoreWebApp_Models.ViewModel
 {
     public class HomeVM
     {

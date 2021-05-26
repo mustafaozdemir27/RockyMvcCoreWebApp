@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using RockyMvcCoreWebApp.Models;
+using RockyMvcCoreWebApp_Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

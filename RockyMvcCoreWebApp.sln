@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp", "RockyMvcCoreWebApp\RockyMvcCoreWebApp.csproj", "{F3919BB6-6FB0-4905-A363-7EB2DEE51088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockyMvcCoreWebApp", "RockyMvcCoreWebApp\RockyMvcCoreWebApp.csproj", "{F3919BB6-6FB0-4905-A363-7EB2DEE51088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp_Utility", "ClassLibrary1\RockyMvcCoreWebApp_Utility.csproj", "{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockyMvcCoreWebApp_Models", "RockyMvcCoreWebApp_Models\RockyMvcCoreWebApp_Models.csproj", "{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F3919BB6-6FB0-4905-A363-7EB2DEE51088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3919BB6-6FB0-4905-A363-7EB2DEE51088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3919BB6-6FB0-4905-A363-7EB2DEE51088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E34584C-D9FE-435D-B835-4ADCBBFC0DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9B28A0-3A63-464B-8345-4C01A3C2CECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

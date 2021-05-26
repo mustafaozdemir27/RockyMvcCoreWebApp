@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RockyMvcCoreWebApp.Utility
+namespace RockyMvcCoreWebApp_Utility
 {
     public class MailJetSettings
     {

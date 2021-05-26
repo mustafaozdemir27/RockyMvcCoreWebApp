@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RockyMvcCoreWebApp.Models
+namespace RockyMvcCoreWebApp_Models
 {
     public class Category
     {

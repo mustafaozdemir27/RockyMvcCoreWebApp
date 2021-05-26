@@ -221,7 +221,7 @@ namespace RockyMvcCoreWebApp.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.ApplicationType", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.ApplicationType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -237,7 +237,7 @@ namespace RockyMvcCoreWebApp.Migrations
                     b.ToTable("ApplicationType");
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.Category", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -256,7 +256,7 @@ namespace RockyMvcCoreWebApp.Migrations
                     b.ToTable("Category");
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.Product", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -345,15 +345,15 @@ namespace RockyMvcCoreWebApp.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("RockyMvcCoreWebApp.Models.Product", b =>
+            modelBuilder.Entity("RockyMvcCoreWebApp_Models.Product", b =>
                 {
-                    b.HasOne("RockyMvcCoreWebApp.Models.ApplicationType", "ApplicationType")
+                    b.HasOne("RockyMvcCoreWebApp_Models.ApplicationType", "ApplicationType")
                         .WithMany()
                         .HasForeignKey("ApplicationTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("RockyMvcCoreWebApp.Models.Category", "Category")
+                    b.HasOne("RockyMvcCoreWebApp_Models.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)

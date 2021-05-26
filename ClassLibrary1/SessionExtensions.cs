@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace RockyMvcCoreWebApp.Utility
+namespace RockyMvcCoreWebApp_Utility
 {
     public static class SessionExtensions
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RockyMvcCoreWebApp.Models.ViewModel
+namespace RockyMvcCoreWebApp_Models.ViewModel
 {
     public class ProductUserVM
     {

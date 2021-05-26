@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RockyMvcCoreWebApp.Data;
-using RockyMvcCoreWebApp.Utility;
+using RockyMvcCoreWebApp_Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
