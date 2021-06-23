@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RockyMvcCoreWebApp.Repository.IRepository;
+using RockyMvcCoreWebApp_DataAccess.Repository.IRepository;
 using RockyMvcCoreWebApp_DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RockyMvcCoreWebApp.Repository
+namespace RockyMvcCoreWebApp_DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
