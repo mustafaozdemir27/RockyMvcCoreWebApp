@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RockyMvcCoreWebApp_DataAccess.Data;
+using RockyMvcCoreWebApp_DataAccess.Repository;
+using RockyMvcCoreWebApp_DataAccess.Repository.IRepository;
 using RockyMvcCoreWebApp_Utility;
 using System;
 using System.Collections.Generic;
@@ -30,7 +32,7 @@ namespace RockyMvcCoreWebApp
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
                 Configuration.GetConnectionString("DefaultConnection")));
-            services.AddIdentity<IdentityUser,IdentityRole>()
+            services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddDefaultTokenProviders().AddDefaultUI()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddHttpContextAccessor();
@@ -42,6 +44,11 @@ namespace RockyMvcCoreWebApp
                 Options.Cookie.HttpOnly = true;
                 Options.Cookie.IsEssential = true;
             });
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+
+            services.AddScoped<IApplicationTypeRepository, ApplicationTypeRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+
             services.AddControllersWithViews();
         }
 
